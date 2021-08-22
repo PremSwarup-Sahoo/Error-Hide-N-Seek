@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head>
+  <title>Hide N' Seek</title>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAo1f33OoqbicNg93j5Tf_6J9DWQXT2UtY",
+    authDomain: "hide-n--seek.firebaseapp.com",
+    databaseURL: "https://hide-n--seek-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "hide-n--seek",
+    storageBucket: "hide-n--seek.appspot.com",
+    messagingSenderId: "755851521286",
+    appId: "1:755851521286:web:e1355b4aec188384794287"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+  </head>
+  <body>
+      <script src="js/Map.js"></script>
+      <script src="js/Form.js"></script>
+      <script src="js/Game.js"></script>
+      <script src="js/Player.js"></script>
+      <script src="sketch.js"></script>
+</body></html>
